@@ -1,0 +1,235 @@
+.navbar.navbar-default{
+	margin:0;
+	background:none;
+	border:none;
+	font-family: 'PT Sans', sans-serif;
+	margin-top:35px;
+}
+.navbar-brand{
+	height:auto;
+	padding:0;
+}
+.nav > li > a{
+	font-size:15px;
+	padding:15px 25px;
+	color:#fff;
+	white-space:nowrap;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+	background:none;
+	color:#5bc550;
+}
+.navbar-default .navbar-nav > li.requestquote{
+	padding-left:25px;
+}
+.navbar-default .navbar-nav > li.requestquote > a{
+	background:#5bc550;
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	font-weight:700;
+}
+.navbar-default .navbar-nav > li.requestquote > a:hover{
+	background:#328f28;
+	color:#fff;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+	background:#cf1a07;
+}
+
+.navbar.navbar-default .dropdown-menu{
+	padding:0;
+	margin:0;
+	border-radius:0;
+	background:#cf1a07;
+	color:#fff;
+	min-width:200px;
+	border:none;
+	box-shadow:none;
+}
+.navbar.navbar-default .dropdown-menu > li > a{
+	background:#cf1a07;
+	color:#fff;
+	padding:10px 15px;
+	border-bottom:1px dashed #fa301a;
+}
+.navbar.navbar-default .dropdown-menu > li:last-child > a{
+	border:none;
+}
+.navbar.navbar-default .dropdown-menu > li > a:hover{
+	background:#194786;
+	color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+img{
+	max-width:100%;
+}
+
+
+
+
+
+@media screen and (max-width:1199px){
+	.banner_content h1{
+		font-size:50px;
+	}
+	.electrical_equipment h2{
+		font-size:32px;
+	}
+	.taggingprocessholder h3{
+		font-size:22px;
+	}
+	.taggingprocess::before, .taggingprocess::after{
+		height:363px;
+	}
+	.taggingprocessholder p, .servicesholder p{
+		font-size:14px;
+		min-height:100px;
+	}
+	.btn-lglg{
+		padding:15px 30px;
+	}
+	.footertop .col-sm-6.col-lg-3{
+		margin-bottom:40px;
+	}
+}
+@media screen and (max-width:991px){
+	.nav > li > a{
+		padding:15px;
+	}
+	.banner_content h1{
+		font-size:36px;
+	}
+	.banner_content h4{
+		padding:0 50px 30px;
+	}
+	.electrical_equipment h2{
+		font-size:22px;
+	}
+	.servicesholder h3{
+		font-size:20px;
+		min-height:50px;
+		margin-bottom:10px;
+	}
+	.taggingprocessholder h3{
+		font-size:17px;
+	}
+	.taggingprocess::before, .taggingprocess::after{
+		height:326px;
+	}
+	.taggingprocessholder p, .servicesholder p{
+		min-height:125px;
+	}
+}
+
+@media screen and (max-width:767px){
+	.banner_content h1{
+		font-size:26px;
+	}
+	.banner_content h2{
+		font-size:22px;
+	}
+	.bannercontent{
+		padding:50px 0;
+	}
+	.navbar-default .navbar-nav > li.requestquote{
+		padding:0;
+	}
+	.navbar-default .navbar-nav > li{
+		border-bottom:1px dashed #ddd;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border:none;
+		border-top:1px dashed #ddd;
+	}
+	.navbar-nav{
+		margin-bottom:0;
+		margin-top:0;
+	}
+	.electrical_equipment, .electrical_equipment .text-right {
+		text-align:center;
+	}
+	.taggingprocessholder p, .servicesholder p{
+		min-height:1px;
+	}
+	.servicesholder{
+		margin-bottom:40px;
+	}
+	.taggingprocess h2{
+		font-size:36px;
+	}
+	.taggingprocessimg > img{
+		width:100%;
+	}
+	.footerbottom{
+		border:none;
+	}
+	.footerbottomholder{
+		border-top:1px dashed #8b8b8b;
+		margin-bottom:40px;
+	}
+	.ourprocess .curvebg{
+		background:none;
+	}
+	
+}
+@media screen and (max-width:575px){
+	.bannerholder::after{
+		border-left:10px solid #5bc550;
+		border-bottom:10px solid #5bc550;
+	}
+	.bannerholder:before{
+		border-width: 10px 0 0 20px;
+	}
+	.bannerholderinn:after{
+		border-right:10px solid #5bc550;
+		border-top:10px solid #5bc550;
+	}
+	.bannerholderinn:before{
+		border-width: 0 20px 10px 0;
+	}
+	.banner_content{
+		padding:40px 20px;
+	}
+	.banner_content h1{
+		font-size:24px;
+	}
+	.welcometo h2, .bestservices h2, .taggingprocess h2{
+		font-size:32px;
+	}
+	.banner_content h4{
+		padding:0 0 30px;
+	}
+}
+@media screen and (max-width:479px){
+	.banner_content h1{
+		font-size:16px;
+	}
+	.banner_content h2{
+		font-size:15px;
+	}
+	.welcometo h2, .bestservices h2, .taggingprocess h2{
+		font-size:22px;
+	}
+}
+
+
+
+
